@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D45D98DE21C161DC004A97FF /* stars in Resources */ = {isa = PBXBuildFile; fileRef = D45D98DD21C161DC004A97FF /* stars */; };
+		D45D98E221C168A8004A97FF /* CoffeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45D98E121C168A8004A97FF /* CoffeeCell.swift */; };
 		D4B8272E21C0034E002CE62B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8272D21C0034E002CE62B /* AppDelegate.swift */; };
 		D4B8273021C0034E002CE62B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8272F21C0034E002CE62B /* ViewController.swift */; };
 		D4B8273321C0034E002CE62B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B8273121C0034E002CE62B /* Main.storyboard */; };
@@ -14,6 +16,15 @@
 		D4B8273821C0034E002CE62B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B8273621C0034E002CE62B /* LaunchScreen.storyboard */; };
 		D4B8274321C0034F002CE62B /* Coffee_shop_dropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8274221C0034F002CE62B /* Coffee_shop_dropTests.swift */; };
 		D4B8274E21C0034F002CE62B /* Coffee_shop_dropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8274D21C0034F002CE62B /* Coffee_shop_dropUITests.swift */; };
+		D4B8276121C00F3C002CE62B /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B8275B21C00F3B002CE62B /* heart.png */; };
+		D4B8276221C00F3C002CE62B /* chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B8275C21C00F3B002CE62B /* chat@2x.png */; };
+		D4B8276321C00F3C002CE62B /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B8275D21C00F3B002CE62B /* heart@2x.png */; };
+		D4B8276421C00F3C002CE62B /* heart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B8275E21C00F3C002CE62B /* heart@3x.png */; };
+		D4B8276521C00F3C002CE62B /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B8275F21C00F3C002CE62B /* chat.png */; };
+		D4B8276621C00F3C002CE62B /* chat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B8276021C00F3C002CE62B /* chat@3x.png */; };
+		D4B8276821C01ABD002CE62B /* CoffeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8276721C01ABD002CE62B /* CoffeeViewController.swift */; };
+		D4B8276A21C01E66002CE62B /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8276921C01E66002CE62B /* Coffee.swift */; };
+		D4B8276C21C01F95002CE62B /* SomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8276B21C01F95002CE62B /* SomeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D45D98DD21C161DC004A97FF /* stars */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stars; sourceTree = "<group>"; };
+		D45D98E121C168A8004A97FF /* CoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoffeeCell.swift; path = ../CoffeeCell.swift; sourceTree = "<group>"; };
 		D4B8272A21C0034E002CE62B /* Coffee-shop-drop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee-shop-drop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B8272D21C0034E002CE62B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4B8272F21C0034E002CE62B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,15 @@
 		D4B8274921C0034F002CE62B /* Coffee-shop-dropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee-shop-dropUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B8274D21C0034F002CE62B /* Coffee_shop_dropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_shop_dropUITests.swift; sourceTree = "<group>"; };
 		D4B8274F21C0034F002CE62B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B8275B21C00F3B002CE62B /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		D4B8275C21C00F3B002CE62B /* chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat@2x.png"; sourceTree = "<group>"; };
+		D4B8275D21C00F3B002CE62B /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@2x.png"; sourceTree = "<group>"; };
+		D4B8275E21C00F3C002CE62B /* heart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@3x.png"; sourceTree = "<group>"; };
+		D4B8275F21C00F3C002CE62B /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		D4B8276021C00F3C002CE62B /* chat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat@3x.png"; sourceTree = "<group>"; };
+		D4B8276721C01ABD002CE62B /* CoffeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewController.swift; sourceTree = "<group>"; };
+		D4B8276921C01E66002CE62B /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		D4B8276B21C01F95002CE62B /* SomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,13 @@
 				D4B8274121C0034F002CE62B /* Coffee-shop-dropTests */,
 				D4B8274C21C0034F002CE62B /* Coffee-shop-dropUITests */,
 				D4B8272B21C0034E002CE62B /* Products */,
+				D4B8275F21C00F3C002CE62B /* chat.png */,
+				D4B8275C21C00F3B002CE62B /* chat@2x.png */,
+				D4B8276021C00F3C002CE62B /* chat@3x.png */,
+				D4B8275B21C00F3B002CE62B /* heart.png */,
+				D4B8275D21C00F3B002CE62B /* heart@2x.png */,
+				D4B8275E21C00F3C002CE62B /* heart@3x.png */,
+				D45D98DD21C161DC004A97FF /* stars */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +126,13 @@
 		D4B8272C21C0034E002CE62B /* Coffee-shop-drop */ = {
 			isa = PBXGroup;
 			children = (
+				D45D98E121C168A8004A97FF /* CoffeeCell.swift */,
 				D4B8272D21C0034E002CE62B /* AppDelegate.swift */,
 				D4B8272F21C0034E002CE62B /* ViewController.swift */,
 				D4B8273121C0034E002CE62B /* Main.storyboard */,
+				D4B8276921C01E66002CE62B /* Coffee.swift */,
+				D4B8276B21C01F95002CE62B /* SomeData.swift */,
+				D4B8276721C01ABD002CE62B /* CoffeeViewController.swift */,
 				D4B8273421C0034E002CE62B /* Assets.xcassets */,
 				D4B8273621C0034E002CE62B /* LaunchScreen.storyboard */,
 				D4B8273921C0034E002CE62B /* Info.plist */,
@@ -229,9 +262,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B8276121C00F3C002CE62B /* heart.png in Resources */,
 				D4B8273821C0034E002CE62B /* LaunchScreen.storyboard in Resources */,
+				D45D98DE21C161DC004A97FF /* stars in Resources */,
 				D4B8273521C0034E002CE62B /* Assets.xcassets in Resources */,
+				D4B8276521C00F3C002CE62B /* chat.png in Resources */,
+				D4B8276321C00F3C002CE62B /* heart@2x.png in Resources */,
 				D4B8273321C0034E002CE62B /* Main.storyboard in Resources */,
+				D4B8276421C00F3C002CE62B /* heart@3x.png in Resources */,
+				D4B8276621C00F3C002CE62B /* chat@3x.png in Resources */,
+				D4B8276221C00F3C002CE62B /* chat@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4B8273021C0034E002CE62B /* ViewController.swift in Sources */,
+				D4B8276C21C01F95002CE62B /* SomeData.swift in Sources */,
+				D4B8276821C01ABD002CE62B /* CoffeeViewController.swift in Sources */,
 				D4B8272E21C0034E002CE62B /* AppDelegate.swift in Sources */,
+				D4B8276A21C01E66002CE62B /* Coffee.swift in Sources */,
+				D45D98E221C168A8004A97FF /* CoffeeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
